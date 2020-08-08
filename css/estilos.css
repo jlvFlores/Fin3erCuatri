@@ -176,7 +176,7 @@ header .texto h3{
     transition:all .3s ease ;
 }
 .main .ubicacion {
-    background: #fff;
+    background-color: rgb(190, 190, 190);
     padding: 60px 0;
     overflow: hidden;
 }

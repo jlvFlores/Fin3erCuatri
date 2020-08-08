@@ -95,42 +95,42 @@
         <section class="galeria">
             <div class="foto">
                 <a href="Galeria.html">
-                    <img src="img/01.jpeg" alt="">
+                    <img src="img/01.jpg" alt="">
                 </a>
             </div>
             <div class="foto">
                 <a href="Galeria.html">
-                    <img src="img/02.jpeg" alt="">
+                    <img src="img/02.jpg" alt="">
                 </a>
             </div>
             <div class="foto">
                 <a href="Galeria.html">
-                    <img src="img/03.jpeg" alt="">
+                    <img src="img/03.jpg" alt="">
                 </a>
             </div>
             <div class="foto">
                 <a href="Galeria.html">
-                    <img src="img/04.jpeg" alt="">
+                    <img src="img/04.jpg" alt="">
                 </a>
             </div>
             <div class="foto">
                 <a href="Galeria.html">
-                    <img src="img/05.jpeg" alt="">
+                    <img src="img/05.jpg" alt="">
                 </a>
             </div>
             <div class="foto">
                 <a href="Galeria.html">
-                    <img src="img/06.jpeg" alt="">
+                    <img src="img/06.jpg" alt="">
                 </a>
             </div>
             <div class="foto">
                 <a href="Galeria.html">
-                    <img src="img/07.jpeg" alt="">
+                    <img src="img/07.jpg" alt="">
                 </a>
             </div>
             <div class="foto">
                 <a href="Galeria.html">
-                    <img src="img/08.jpeg" alt="">
+                    <img src="img/08.jpg" alt="">
                 </a>
             </div>
         </section>
