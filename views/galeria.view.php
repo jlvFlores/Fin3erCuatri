@@ -1,5 +1,7 @@
 <?php require 'head.php'; ?>
-      
+<title>Galeria</title>
+</head>
+<body>
     <header>
         <div class="cont">
             <nav class="menu">
@@ -7,6 +9,7 @@
                 <a href="pedidos.php">Pedidos</a>
                 <!--cambiar pedidos.php con js para abrir una ventana, 
                 sin importar en que pagina esta el usuario-->
+                <a href="cerrar.php">Cerrar Sesion</a>
             </nav>
             <div class="texto">
                 <h1 class="nombre">Galeria <span>de Luism20</span></h1>

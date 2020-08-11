@@ -1,5 +1,8 @@
 <?php require 'head.php'; ?>
-    <header>
+<title>ARTELuism20</title>
+</head>
+<body>	
+	<header>
         <div class="cont">
             <nav class="menu">
                 <a href="#" id="btn-Ubicacion">Ubicacion</a>
@@ -94,42 +97,42 @@
 
         <section class="galeria">
             <div class="foto">
-                <a href="Galeria.html">
+                <a href="galeria.php">
                     <img src="img/01.jpg" alt="">
                 </a>
             </div>
             <div class="foto">
-                <a href="Galeria.html">
+                <a href="galeria.php">
                     <img src="img/02.jpg" alt="">
                 </a>
             </div>
             <div class="foto">
-                <a href="Galeria.html">
+                <a href="galeria.php">
                     <img src="img/03.jpg" alt="">
                 </a>
             </div>
             <div class="foto">
-                <a href="Galeria.html">
+                <a href="galeria.php">
                     <img src="img/04.jpg" alt="">
                 </a>
             </div>
             <div class="foto">
-                <a href="Galeria.html">
+                <a href="galeria.php">
                     <img src="img/05.jpg" alt="">
                 </a>
             </div>
             <div class="foto">
-                <a href="Galeria.html">
+                <a href="galeria.php">
                     <img src="img/06.jpg" alt="">
                 </a>
             </div>
             <div class="foto">
-                <a href="Galeria.html">
+                <a href="galeria.php">
                     <img src="img/07.jpg" alt="">
                 </a>
             </div>
             <div class="foto">
-                <a href="Galeria.html">
+                <a href="galeria.php">
                     <img src="img/08.jpg" alt="">
                 </a>
             </div>
