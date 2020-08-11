@@ -5,11 +5,16 @@
     <header>
         <div class="cont">
             <nav class="menu">
+                <form name="busqueda" class="buscar" action="<?php echo RUTA; ?>/buscar.php" method="get">
+                    <input type="text" name="busqueda" placeholder="Buscar">
+                    <button type="submit" class="icono fa fa-search"></button>
+                </form>
+                <!--añadir una ventana de busqueda-->
                 <a href="contenido.php">Inicio</a>
                 <a href="pedidos.php">Pedidos</a>
                 <!--cambiar pedidos.php con js para abrir una ventana, 
                 sin importar en que pagina esta el usuario-->
-                <a href="cerrar.php">Cerrar Sesion</a>
+                <a href="admin/cerrar.php">Cerrar Sesion</a>
             </nav>
             <div class="texto">
                 <h1 class="nombre">Galeria <span>de Luism20</span></h1>

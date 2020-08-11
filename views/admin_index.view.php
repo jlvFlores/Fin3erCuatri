@@ -1,31 +1,39 @@
-<?php require 'head.php'; ?>
+<?php require 'headA.php'; ?>
 <title>Admin</title>
 </head>
-<body>	
-	<header>
+<body>
+    <header>
         <div class="cont">
             <nav class="menu">
+                <form name="busqueda" class="buscar" action="<?php echo RUTA; ?>/buscar.php" method="get">
+                    <input type="text" name="busqueda" placeholder="Buscar">
+                    <button type="submit" class="icono fa fa-search"></button>
+                </form>    
+                <a href="nuevo.php">Nuevo Articulo</a>
                 <a href="cerrar.php">Cerrar Sesion</a>
             </nav>
+
             <div class="texto">
-                <h1 class="nombre">Bienvenido <span>ADMIN</span></h1>
+                <h1 class="nombre"><span>Bienvenido </span>ADMIN</h1>
                 <h3>La entrada fue un exito</h3>
             </div>
         </div>
-    </header> 
-    
-    <section class="main">
-        <section class="acerca-de">
-            <div class="cont">
-                <div class="foto">
-                    <img src="img/header.jpg" alt="">
-                </div>
+    </header>
+
+    <div class="cont">
+        <h2>panel de control</h2>
+        <?php foreach($posts as $post): ?>
+            <div class="post">
                 <article>
-                    <h3>Acerca de</h3>
-                    <p>En las secciones de la nueva empresa se pueden checar siertas caracteristicas en las piezas y demas productos 
-                    </p>
+                    <h2 class="nombre"><?php echo $post['id'] . '.-' . $post['nombre']; ?></h2>
+                    <a href="editar.php?id=<?php echo $post['id']; ?>">Editar</a>
+                    <a href="../single.php?id=<?php echo $post['id']; ?>">Ver</a>
+                    <a href="borrar.php?id=<?php echo $post['id']; ?>">Borrar</a>
                 </article>
             </div>
-        </section>
+        <?php endforeach; ?>
+    </div>
+    <!-- agregar las opciones para 
+    añadir y borrar articulos-->
 
-<?php require 'footer.php'; ?>
+<?php require 'footerA.php'; ?>

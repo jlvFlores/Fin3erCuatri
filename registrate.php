@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $errores .= '<li>Por favor rellena los datos correctamente</li>';
     } else {
         try {
-            $conexion = new PDO('mysql:host=localhost;dbname=integrador', 'root', '');
+            $conexion = new PDO('mysql:host=localhost;dbname='.$bd_config['basedatos'], $bd_config['usuario'], $bd_config['pass']);
         } catch (PDOException $e) {
             echo "Error; " . $e->getMessage();
         }

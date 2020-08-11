@@ -7,7 +7,7 @@
             <nav class="menu">
                 <a href="#" id="btn-Ubicacion">Ubicacion</a>
                 <a href="galeria.php">Galeria</a>
-                <a href="cerrar.php">Cerrar Sesion</a>
+                <a href="admin/cerrar.php">Cerrar Sesion</a>
             </nav>
             <div class="texto">
                 <h1 class="nombre">ARTE <span>Luism20</span></h1>

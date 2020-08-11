@@ -5,11 +5,11 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-body{
+body {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 16px;
 }
-.cont{
+.cont {
     width: 90%;
     max-width: 1000px;
     margin: auto;
@@ -17,18 +17,18 @@ body{
 }
 
 /*------------ ------header -------------- -----------*/
-header{
+header {
     width: 100%;
     background:url('../img/FondoBase.jpg') #281a0c;
     background-size: cover;
     background-attachment: fixed;
     background-position:center 0;
 }
-header .cont{
+header .cont {
     position: relative;
     height: 700px;
 }
-header .menu{
+header .menu {
     width:100%;
     text-align: right;
 }
@@ -41,10 +41,42 @@ header .menu a {
     text-decoration:none;
     position: relative;
 }
-header .menu a:hover{
+header .menu a:hover {
     text-decoration: underline;
 }
-header .texto{
+header .buscar {
+	display: inline-block;
+	position: relative;
+	margin-right: 15px;
+}
+header .buscar input[type="text"] {
+	background: none;
+	border:1px solid rgba(255,255,255,.7);
+	color:rgba(255,255,255,.7);
+	height: 30px;
+	padding: 0 10px;
+	padding-right: 32px; 
+}
+header .buscar input[type="text"]:hover,
+header .buscar input[type="text"]:focus {
+	color:#fff;
+	border:1px solid #fff;
+}
+header .buscar .icono {
+	color:rgba(255,255,255,.7);
+	position: absolute;
+	right: 0;
+	background: none;
+	border:none;
+	cursor:pointer;
+	padding: 6px;
+	font-size: 16px;
+	line-height: 16px;
+}
+header .buscar .icono:hover {
+	color: #fff;
+}
+header .texto {
     width:100%;
     color: #fff;
     position: absolute;
@@ -55,7 +87,7 @@ header .texto .nombre {
     font-size: 50px;
     font-weight: 600;
 }
-header .texto .nombre span{
+header .texto .nombre span {
     font-weight: 300;
 }
 header .texto h3{
@@ -273,6 +305,10 @@ footer .copyright {
     .main .mapa {
         width: 80%;
         margin: auto;
+    }
+    footer {
+        bottom: 0;
+        position: absolute;
     }
 }
 
