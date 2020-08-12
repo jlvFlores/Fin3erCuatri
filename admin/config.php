@@ -12,7 +12,6 @@ $blog_config = array(
     'articulos_por_pagina' => '5',
     'carpeta_imagenes' => 'img/'
 );
-/* borrar o cambiar el nombre 'articulos por pagina' */
 
 $blog_admin = array(
     'usuario' => 'admin1', 

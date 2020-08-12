@@ -1,4 +1,4 @@
-<?php 
+<?php session_start(); 
 
 require 'admin/config.php';
 require 'functions.php';
@@ -22,6 +22,10 @@ if (!$post) {
 
 $post = $post[0];
 
-require 'views/single.view.php';
+if (isset($_SESSION['usuario']) or isset($_SESSION['admin'])) {
+    require 'views/single.view.php';
+} else {
+    header('Location: login.php');
+}
 
 ?>

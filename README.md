@@ -14,6 +14,6 @@ Developer note:
     Ask Team member for complete descriptions of products (opcional), 
     Add shoping cart and show shopping cart with Javascript when pressing "pedidos", 
     Add pedidos option to single.view.php, 
-    Add a function that will reduce the product's quantity when a user makes a purchase, 
-    Ensure only admin can access admin features, 
-    get rid off fancy javascript in admin
+    Add a function that will reduce the product's quantity when a user makes a purchase,
+    Get rid off fancy javascript in admin, 
+    Edit menu in contenedor.view.php (opcional)
