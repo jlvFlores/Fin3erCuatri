@@ -11,9 +11,10 @@ if(!$conexion){
 }
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
-   $titulo = limpiarDatos($_POST['titulo']);
-   $extracto = limpiarDatos($_POST['extracto']);
-   $texto = $_POST['texto'];
+   $nombre = limpiarDatos($_POST['nombre']);
+   $cantidad = $_POST['cantidad'];
+   $precio = $_POST['precio'];
+   $texto = limpiarDatos($_POST['texto']);
    $thumb = $_FILES['thumb']['tmp_name'];
 
    $archivo_subido ='../' . $blog_config['carpeta_imagenes'] . $_FILES['thumb']['name'];
@@ -21,13 +22,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
    move_uploaded_file($thumb, $archivo_subido);
 
    $statement = $conexion->prepare(
-      'INSERT INTO articulos (id, titulo, extracto, texto, thumb)
-      VALUES (null, :titulo, :extracto, :texto, :thumb)'
+      'INSERT INTO articulos (id, nombre, cantidad, precio, texto, thumb)
+      VALUES (null, :nombre, :cantidad, :precio, :texto, :thumb)'
    );
 
    $statement->execute(array(
-      ':titulo'=> $titulo,
-      ':extracto'=> $extracto,
+      ':nombre'=> $nombre,
+      ':cantidad'=> $cantidad,
+      ':precio'=> $precio,
       ':texto'=> $texto,
       ':thumb'=> $_FILES['thumb']['name']
    ));

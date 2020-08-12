@@ -8,12 +8,13 @@
 body {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 16px;
+    background:url('../img/Background.jpg');
 }
 .cont {
     width: 90%;
     max-width: 1000px;
     margin: auto;
-    overflow: hidden;
+    
 }
 
 /* --- Header ---*/
@@ -23,8 +24,8 @@ header {
     background-size: cover;
     background-attachment: fixed;
     background-position:center 0;
+    margin-bottom: 30px;
 }
-
 header .cont {
 	overflow: hidden;
     position: relative;
@@ -104,22 +105,23 @@ header .texto h3{
 	width: 100%;
 	background: #fff;
 	box-shadow: 0px 0px 5px rgba(0,0,0, .5);
-	margin-bottom: 30px;
-	padding: 30px;
+	margin: 30px 0px;
+    padding: 30px;
 }
 .post article .titulo {
-	font-family: "Oswald", Arial, Sans-serif;
 	font-size: 28px;
 	font-weight: normal;
 	line-height: 28px;
-	margin-bottom: 10px;
+    margin-bottom: 10px;
+    color:#5f360d;
 }
-.post article .titulo a {
-	color:#000;
+.post article a {
+    color: #000;
+    margin-right: 5px;
+    text-decoration: none;
 }
-.post article .fecha {
-	color:#747474;
-	font-size: 14px;
+.post article .info {
+	font-size: 20px;
 	margin-bottom: 20px;
 }
 .post article .thumb {
@@ -127,32 +129,14 @@ header .texto h3{
 }
 .post article .thumb img {
 	vertical-align: top;
-	width: 100%;
+	width: 50%;
 }
-.post article .extracto {
+.post article .desc {
 	font-size: 14px;
 	line-height: 20px;
 	margin-bottom: 20px;
 }
-.post article .continuar {
-	color:#BB1F35;
-	font-weight: bold;
-}
-.btn {
-	padding: 15px;
-	display: inline-block;
-	margin: 15px 0;
-	background: #595959;
-	color:#fff;
-	font-size: 1em;
-	font-family: Arial, sans-serif, helvetica;
-	border-radius: 2px;
-	border:none;
-}
-.btn:hover {
-	text-decoration: none;
-	background: #BB1F35;
-}
+
 
 /* -------footer---------- */
 footer {
@@ -180,34 +164,33 @@ footer .copyright {
 .paginacion ul li a {
 	display: block;
 	padding:10px 20px;
-	background: #595959;
+	background: #5f360d;
 	color:#fff;
 }
 .paginacion ul li a:hover {
-	background: #BB1F35;
+	background: #281a0c;
 	text-decoration: none;
 }
 .paginacion ul .active {
-	background: #BB1F35;
+	background: #281a0c;
 	padding:10px 20px;
 }
 .paginacion ul .disabled{
-	background: #a8a8a8;
+	background: #b4a08b;
 	padding:10px 20px;
 	cursor: not-allowed;
 }
 .paginacion ul .disabled:hover {
-	background: #a8a8a8;
+	background: #b4a08b;
 }
 
 /* --- Formularios --- */
 .formulario {
 	width: 100%;
-	overflow: hidden;
+    overflow: hidden;
 }
 .formulario input[type="text"],
-.formulario input[type="email"],
-.formulario input[type="password"],
+.formulario input[type="number"],
 .formulario textarea {
 	border: 1px solid #A8A8A8;
 	border-radius: 2px;
@@ -215,13 +198,15 @@ footer .copyright {
 	width: 100%;
 	display: block;
 	margin-bottom:20px;
-	font-family:Arial, sans-serif, helvetica;
-	font-size: 1em;
-	color:#141938;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1em;
+}
+.formulario input[type="number"] {
+	width: 49.75%;
+    display: inline-flex;
 }
 .formulario input[type="text"]:focus,
-.formulario input[type="email"]:focus,
-.formulario input[type="password"]:focus,
+.formulario input[type="number"]:focus,
 .formulario textarea:focus {
 	border: 2px solid #595959;
 	padding: 15px;
@@ -233,15 +218,15 @@ footer .copyright {
 }
 .formulario input[type="submit"]{
 	padding: 15px;
-	background: #595959;
+	background: #5f360d;
 	color:#fff;
 	font-size: 1em;
-	font-family: Arial, sans-serif, helvetica;
+    font-family: "Open Sans", Arial, sans-serif;
 	border-radius: 2px;
 	border:none;
 	float: right;
 	cursor: pointer;
 }
 .formulario input[type="submit"]:hover{
-	background: #BB1F35;
+	background: #281a0c;
 }

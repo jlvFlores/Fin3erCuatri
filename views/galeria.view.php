@@ -5,11 +5,13 @@
     <header>
         <div class="cont">
             <nav class="menu">
-                <form name="busqueda" class="buscar" action="<?php echo RUTA; ?>/buscar.php" method="get">
+                <!--
+                <form name="busqueda" class="buscar" action=" < ?php echo RUTA; ?>" method="get">
                     <input type="text" name="busqueda" placeholder="Buscar">
                     <button type="submit" class="icono fa fa-search"></button>
                 </form>
-                <!--añadir una ventana de busqueda-->
+                -->
+
                 <a href="contenido.php">Inicio</a>
                 <a href="pedidos.php">Pedidos</a>
                 <!--cambiar pedidos.php con js para abrir una ventana, 
@@ -26,64 +28,64 @@
     <section class="main">
         <section class="galeria">
             <div class="foto">
-                <img src="img/01.jpg" alt="">
+                <img src="img/01.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/02.jpg" alt="">
+                <img src="img/02.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/03.jpg" alt="">
+                <img src="img/03.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/04.jpg" alt="">
+                <img src="img/04.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/05.jpg" alt="">
+                <img src="img/05.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/06.jpg" alt="">
+                <img src="img/06.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/07.jpg" alt="">
+                <img src="img/07.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/08.jpg" alt="">
+                <img src="img/08.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/09.jpg" alt="">
+                <img src="img/09.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/10.jpg" alt="">
+                <img src="img/10.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/11.jpg" alt="">
+                <img src="img/11.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/12.jpg" alt="">
+                <img src="img/12.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/13.jpg" alt="">
+                <img src="img/13.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/14.jpg" alt="">
+                <img src="img/14.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/15.jpg" alt="">
+                <img src="img/15.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/16.jpg" alt="">
+                <img src="img/16.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/17.jpg" alt="">
+                <img src="img/17.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/18.jpg" alt="">
+                <img src="img/18.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/19.jpg" alt="">
+                <img src="img/19.jpg" alt="no disponible">
             </div>
             <div class="foto">
-                <img src="img/20.jpg" alt="">
+                <img src="img/20.jpg" alt="no disponible">
             </div>
         </section>
     </section>

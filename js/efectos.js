@@ -1,6 +1,6 @@
 $(document).ready(function(){
 //efecto menu we //
-    $('.menu').each(function(index, elemento){
+    $('.menu a').each(function(index, elemento){
     $(this).css({
         'top':'-200px'
         });

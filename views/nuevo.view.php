@@ -7,11 +7,12 @@
             <article>
                 <h2 class="titulo">Nuevo articulo</h2>
                 <form class="formulario" method="post" enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
-                    <input type="text" name="titulo" placeholder="Titulo del Articulo">
-                    <input type="text" name="extracto" placeholder="Extracto del Articulo">
-                    <textarea name="texto" placeholder="Texto del Articulo"></textarea>
+                    <input type="text" name="nombre" placeholder="Nombre del Articulo">
+                    <input type="number" name="cantidad" min="1" placeholder="Cantidad disponible">
+                    <input type="number" name="precio" placeholder="Precio ej.(55.50)">
+                    <textarea name="texto" placeholder="Descripcion del Articulo"></textarea>
                     <input type="file" name="thumb">
-                    <input type="submit" value="Crear Articulo">           
+                    <input type="submit" value="Agregar Articulo">
                 </form>
             </article>
         </div>

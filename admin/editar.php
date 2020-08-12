@@ -11,10 +11,11 @@ if(!$conexion){
 }
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $titulo = limpiarDatos($_POST['titulo']);
-    $extracto = limpiarDatos($_POST['extracto']);
-    $texto = $_POST['texto'];   
     $id = limpiarDatos($_POST['id']);
+    $nombre = limpiarDatos($_POST['nombre']);
+    $cantidad = $_POST['cantidad'];
+    $precio = $_POST['precio'];
+    $texto = limpiarDatos($_POST['texto']);
     $thumb_guardada = $_POST['thumb-guardada'];
     $thumb = $_FILES['thumb'];
 
@@ -27,12 +28,13 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     $statement = $conexion->prepare(
-        'UPDATE articulos SET titulo = :titulo, extracto = :extracto, texto = :texto, thumb = :thumb WHERE id = :id'
+        'UPDATE articulos SET nombre = :nombre, cantidad = :cantidad, precio = :precio, texto = :texto, thumb = :thumb WHERE id = :id'
     );
 
     $statement->execute(array(
-     ':titulo' => $titulo,
-     ':extracto' => $extracto,
+     ':nombre' => $nombre,
+     ':cantidad' => $cantidad,
+     ':precio' => $precio,
      ':texto' => $texto,
      ':thumb' => $thumb,
      ':id' => $id

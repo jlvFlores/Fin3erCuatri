@@ -12,7 +12,7 @@ if(!$conexion) {
     header('Location: ../error.php');
 }
 
-$posts = obtener_post($blog_config['post_por_pagina'], $conexion);
+$posts = obtener_post($blog_config['articulos_por_pagina'], $conexion);
 
 
 require '../views/admin_index.view.php';

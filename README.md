@@ -7,4 +7,13 @@ Los integrantes son:
     Leonardo Santa Maria Sanches.
 
 Developer note:
-    functions.php and admin carpet still need editing done
+    Need to display images in galery based on DataBase, 
+    Need to add a working search bar (opcional), 
+    Be able to access single.view.php through galery, 
+    Edit css styles for single.view.php (estilos.css), 
+    Ask Team member for complete descriptions of products (opcional), 
+    Add shoping cart and show shopping cart with Javascript when pressing "pedidos", 
+    Add pedidos option to single.view.php, 
+    Add a function that will reduce the product's quantity when a user makes a purchase, 
+    Ensure only admin can access admin features, 
+    get rid off fancy javascript in admin

@@ -9,10 +9,10 @@ $bd_config = array(
 );
 
 $blog_config = array(
-    'post_por_pagina' => '2',
+    'articulos_por_pagina' => '5',
     'carpeta_imagenes' => 'img/'
 );
-/* borrar o cambiar 'post por pagina' */
+/* borrar o cambiar el nombre 'articulos por pagina' */
 
 $blog_admin = array(
     'usuario' => 'admin1', 
