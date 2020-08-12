@@ -27,66 +27,13 @@
 
     <section class="main">
         <section class="galeria">
+        <?php foreach($posts as $post): ?>
             <div class="foto">
-                <img src="img/01.jpg" alt="no disponible">
+                <a href="single.php?id=<?php echo $post['id']; ?>">
+                    <img src="img/<?php echo $post['thumb']; ?>" alt="no disponible">                         
+                </a>
             </div>
-            <div class="foto">
-                <img src="img/02.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/03.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/04.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/05.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/06.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/07.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/08.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/09.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/10.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/11.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/12.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/13.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/14.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/15.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/16.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/17.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/18.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/19.jpg" alt="no disponible">
-            </div>
-            <div class="foto">
-                <img src="img/20.jpg" alt="no disponible">
-            </div>
+        <?php endforeach; ?>
         </section>
     </section>
 

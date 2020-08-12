@@ -96,46 +96,13 @@
         </section>
 
         <section class="galeria">
-            <div class="foto">
-                <a href="galeria.php">
-                    <img src="img/01.jpg" alt="">
-                </a>
-            </div>
-            <div class="foto">
-                <a href="galeria.php">
-                    <img src="img/02.jpg" alt="">
-                </a>
-            </div>
-            <div class="foto">
-                <a href="galeria.php">
-                    <img src="img/03.jpg" alt="">
-                </a>
-            </div>
-            <div class="foto">
-                <a href="galeria.php">
-                    <img src="img/04.jpg" alt="">
-                </a>
-            </div>
-            <div class="foto">
-                <a href="galeria.php">
-                    <img src="img/05.jpg" alt="">
-                </a>
-            </div>
-            <div class="foto">
-                <a href="galeria.php">
-                    <img src="img/06.jpg" alt="">
-                </a>
-            </div>
-            <div class="foto">
-                <a href="galeria.php">
-                    <img src="img/07.jpg" alt="">
-                </a>
-            </div>
-            <div class="foto">
-                <a href="galeria.php">
-                    <img src="img/08.jpg" alt="">
-                </a>
-            </div>
+            <?php foreach($posts as $post): ?>
+                <div class="foto">
+                    <a href="galeria.php">
+                        <img src="img/<?php echo $post['thumb']; ?>" alt="no disponible">                         
+                    </a>
+                </div>
+            <?php endforeach; ?>
         </section>
 
        <section class="ubicacion" id="Ubicacion">

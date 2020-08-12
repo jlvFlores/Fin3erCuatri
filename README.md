@@ -7,13 +7,11 @@ Los integrantes son:
     Leonardo Santa Maria Sanches.
 
 Developer note:
-    Need to display images in galery based on DataBase, 
     Need to add a working search bar (opcional), 
-    Be able to access single.view.php through galery, 
     Edit css styles for single.view.php (estilos.css), 
     Ask Team member for complete descriptions of products (opcional), 
     Add shoping cart and show shopping cart with Javascript when pressing "pedidos", 
-    Add pedidos option to single.view.php, 
+    Add "pedidos" option to single.view.php, 
     Add a function that will reduce the product's quantity when a user makes a purchase,
-    Get rid off fancy javascript in admin, 
-    Edit menu in contenedor.view.php (opcional)
+    Edit menu in contenedor.view.php (opcional), 
+    Make sure there isnt excess code in css "estilos" and "estilosAdmin"  
