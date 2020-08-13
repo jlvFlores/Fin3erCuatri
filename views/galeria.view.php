@@ -13,9 +13,7 @@
                 -->
 
                 <a href="contenido.php">Inicio</a>
-                <a href="pedidos.php">Pedidos</a>
-                <!--cambiar pedidos.php con js para abrir una ventana, 
-                sin importar en que pagina esta el usuario-->
+                <a href="pedidos.php">Carrito</a>
                 <a href="admin/cerrar.php">Cerrar Sesion</a>
             </nav>
             <div class="texto">
