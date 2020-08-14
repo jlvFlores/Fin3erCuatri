@@ -9,8 +9,6 @@ if(!$conexion) {
     header('Location: ../error.php');
 }
 
-$posts = obtener_post(999, $conexion);
-
 if (isset($_SESSION['usuario'])) {
     require 'views/pedidos.view.php';
 } else {

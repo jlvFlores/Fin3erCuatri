@@ -3,6 +3,7 @@
 require 'admin/config.php';
 require 'functions.php';
 
+
 $conexion = conexion($bd_config);
 $id_articulo = id_articulo($_GET['id']);
 
