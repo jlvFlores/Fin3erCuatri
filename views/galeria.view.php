@@ -17,7 +17,7 @@
                 <a href="admin/cerrar.php">Cerrar Sesion</a>
             </nav>
             <div class="texto">
-                <h1 class="nombre">Galeria <span>de Luism20</span></h1>
+                <h1 class="nombre">Galería <span>de Luism20</span></h1>
                 <h3>Bienvenido a la galería, haz clic en los articulos que deseas ver</h3>
             </div>
         </div>

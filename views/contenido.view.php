@@ -5,13 +5,13 @@
 	<header>
         <div class="cont">
             <nav class="menu">
-                <a href="#" id="btn-Ubicacion">Ubicacion</a>
+                <a href="#" id="btn-Ubicacion">Ubicación</a>
                 <a href="galeria.php">Galeria</a>
                 <a href="admin/cerrar.php">Cerrar Sesion</a>
             </nav>
             <div class="texto">
                 <h1 class="nombre">ARTE <span>Luism20</span></h1>
-                <h3>Este es una pagina de contacto y muestra de piezas en existencia dentro del negocio</h3>
+                <h3>Esta es una pagina de contacto y muestra de piezas en existencia dentro del negocio</h3>
             </div>
         </div>
     </header> 
@@ -24,7 +24,7 @@
                 </div>
                 <article>
                     <h3>Acerca de</h3>
-                    <p>En las secciones de la nueva empresa se pueden checar siertas caracteristicas en las piezas y demas productos 
+                    <p>En las secciones de la nueva empresa se pueden checar ciertas características en las piezas y demás productos.
                     </p>
                 </article>
             </div>
@@ -32,7 +32,7 @@
      
         <section class="menu">
             <div class="cont">
-                <h3 class="titulo">Artesasanias</h3>
+                <h3 class="titulo">Artesanias</h3>
                 <div class="cont-menu">
                     <div class="cont-menu2">
                         <article>
@@ -57,7 +57,7 @@
                             </div>
 
                             <div class="pedido">
-                                <p class="nombre">Ceralero y violetero </p>
+                                <p class="nombre">Cerealero y violetero </p>
                                 <p class="precio"> $75 (MXN)</p>
                                 <p class="desc">Violeto de 120ml y tason cerealero de 250 ml </p>
                             </div>
@@ -66,28 +66,27 @@
                         <article>
                             <p class="categoria">Especiales</p>
                             <div class="pedido">
-                            <p class="nombre">Bota Florero</p>
-                            <p class="precio"> $50 (MXN)</p>
-                            <p class="desc">Echa para una boda especial
-                            </p>
+                                <p class="nombre">Bota Florero</p>
+                                <p class="precio"> $50 (MXN)</p>
+                                <p class="desc">Hecha para una boda especial</p>
                             </div>
 
                             <div class="pedido">
-                            <p class="nombre">Maceta </p>
-                            <p class="precio"> $75 (MXN)</p>
-                            <p class="desc">Hecha para poder poner plantas que no nesecitan tanta agua</p>
+                                <p class="nombre">Maceta </p>
+                                <p class="precio"> $75 (MXN)</p>
+                                <p class="desc">Hecha para poder poner plantas que no nesecitan tanta agua</p>
                             </div>
 
                             <div class="pedido">
-                            <p class="nombre">Jarro para cafe</p>
-                            <p class="precio"> $15 (MXN)</p>
-                            <p class="desc">Jarro de color verde obscuro</p>
+                                <p class="nombre">Jarro para cafe</p>
+                                <p class="precio"> $15 (MXN)</p>
+                                <p class="desc">Jarro de color verde obscuro</p>
                             </div>
 
                             <div class="pedido">
-                            <p class="nombre">Cervilletero Caballo</p>
-                            <p class="precio"> $15 C/(MXN)</p>
-                            <p class="desc">Cervillete con forma de caballo con espalte transparente sin plomo</p>
+                                <p class="nombre">Cervilletero Caballo</p>
+                                <p class="precio"> $15 C/(MXN)</p>
+                                <p class="desc">Cervillete con forma de caballo con espalte transparente sin plomo</p>
                             </div>
                         </article>
                     </div>
@@ -107,7 +106,7 @@
 
        <section class="ubicacion" id="Ubicacion">
            <div class="cont">
-               <h3 class="titulo">Ubicacion</h3>
+               <h3 class="titulo">Ubicación</h3>
                <div class="direccion">
                  <p class="calle">Mexico, Tlaxcala <br />La trinidad tenexyecac Av juarez num 77</p>
                  <p class="telefono">(+52)248-127-2112</p>
